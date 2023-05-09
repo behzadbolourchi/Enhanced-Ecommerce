@@ -7,7 +7,7 @@ Why is this needed? Enhanced Ecommerce feature in Google Analytics enables busin
 
 Goal: On certains pages or on certain interactions implement dataLayer.push snippets that contain the Ecommerce data. This information will be then captured by Google Tag Manager and automatically sent to Google Analytics 4.
 
-Useful resources for reference: 
+Useful resources for reference:
 https://developers.google.com/tag-manager/enhanced-ecommerce
 https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce
 https://www.simoahava.com/analytics/enhanced-ecommerce-guide-for-google-tag-manager/ 
