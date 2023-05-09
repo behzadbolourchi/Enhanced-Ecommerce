@@ -5,14 +5,11 @@ window.dataLayer.push({
     'ecommerce': {                          // ecommerce object. This is the essential part of tracking. New EE data must always be pushed to this object
         'purchase': {                       // name of an action. In this case, always stays as purchase
             'actionField': {
-                'id': '155',                // order id. required 
-                'affiliation': 'affiliate', // name of the affiliate. or affiliate id
-                'revenue': '50.00',         // order revenue without taxes
-                'tax':'12.00',              // taxes (excluding shipping)
-                'shipping': '12.00',        // shipping cost 
+                'id': '155',                // order id. required.
+                'revenue': '50.00',         // order revenue
                 'coupon': 'SUMMER20'        // coupon code used in this transaction
             }, 
-            'products': [{                  // list of products a user has purchased 
+            'product': [{                  // information of car a user has purchased
                 'car_brand': 'پژو',      // name of a product that is currently viewed
                 'id': 'CIT30283',           // id of a product
                 'price': '330.00',          // price of a product
