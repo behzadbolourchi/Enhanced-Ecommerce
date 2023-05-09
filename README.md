@@ -25,7 +25,8 @@ Code location: Does not matter, just make sure that every code is activated only
 Things to keep in mind:
 * For different situations/interactions different tracking codes must be implemented
 * dataLayer.push code snippets must follow the strict data structure that I have provided in the codes. If you think that some other custom parameters should be included (or something is missing), please let me know and we will discuss this.
-* Money-related data must be formatted in a following way:
+
+Money-related data must be formatted in a following way:
  * type: string
  * contains: only a number separated by a decimal point, 
  * separator: dot
