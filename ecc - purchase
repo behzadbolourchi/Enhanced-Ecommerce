@@ -6,9 +6,10 @@ window.dataLayer.push({
         'purchase': {                       // name of an action. In this case, always stays as purchase
             'actionField': {
                 'id': '155',                // order id. required.
+                'lux': '0'                    // if the car is luxury, it should be 1, otherwise 0
+                'paid': '1',                // if service fee has been paid, it should be 1, otherwise 0
                 'revenue': '170000',         // order revenue, car inspection that user pay
                 'coupon': 'SUMMER20'        // coupon code used in this transaction
-                'lux': '0'                    // if the car is luxury, it should be 1, otherwise 0
             },
             'product': [{                  // information of car a user has purchased
                 'brand': 'ایران خودرو',      // name of a product brand
@@ -36,7 +37,6 @@ window.dataLayer.push({
                 'service_fee': '170000',
                 'id': 'CIT30283',           // id of a product, if there is
                 'quantity' : 1              // product quantity
-                'paid': '1',                // if service fee has been paid, it should be 1, otherwise 0
              },
              'userinformation': [{                  // information of car a user has purchased
                 'name': 'test',          // usernam
