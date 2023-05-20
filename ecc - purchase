@@ -6,19 +6,43 @@ window.dataLayer.push({
         'purchase': {                       // name of an action. In this case, always stays as purchase
             'actionField': {
                 'id': '155',                // order id. required.
-                'revenue': '50.00',         // order revenue
+                'revenue': '170000',         // order revenue, car inspection that user pay
                 'coupon': 'SUMMER20'        // coupon code used in this transaction
-            }, 
+                'lux': '0'                    // if the car is luxury, it should be 1, otherwise 0
+            },
             'product': [{                  // information of car a user has purchased
-                'car_brand': 'پژو',      // name of a product that is currently viewed
-                'id': 'CIT30283',           // id of a product
-                'price': '330.00',          // price of a product
-                'brand': 'Citizen',         // brand/vendor of a product
-                'category': 'Watches',      // category of a product
-                'variant': 'Silver',        // product variant. If there are no variants, exclude this key from the dataLayer.push
+                'brand': 'ایران خودرو',      // name of a product brand
+                'model': 'پژو 206',         // name of a product model
+                'product_year': '1401',      // car manufactured year
+                'type': 'تیپ 2',            // product type
+                'kilometer': '12000',            // car mileage
+                'city': 'تهران',
+                'body_perfect': '0',          // if car body is perfect, it should be 1, otherwise 0
+                'body_hood': '1',           // if the car hood has recognition , it should be 1, and if it has been changed it should be 2. otherwise if it has no problem it should be 0
+                'body_trunk': '1',           // if the car trunk has recognition , it should be 1, and if it has been changed it should be 2. otherwise if it has no problem it should be 0
+                'body_front_door_lh': '1',
+                'body_front_door_rh': '1',
+                'body_rear_door_lh': '1',
+                'body_rear_door_rh': '1',
+                'body_front_fender_lh': '1',
+                'body_front_fender_rh': '1',
+                'body_rear_fender_lh': '1',
+                'body_rear_fender_rh': '1',
+                'body_roof': '1',
+                'chassis': '4',             // 0 for fine, 1 for recognition, 2 for changed, and 4 for minor damage
+                'color': 'سفید',
+                'recommended_low_price': '499000000',
+                'recommended_high_price': '514000000',
+                'service_fee': '170000',
+                'id': 'CIT30283',           // id of a product, if there is
                 'quantity' : 1              // product quantity
+                'paid': '1',                // if service fee has been paid, it should be 1, otherwise 0
+             },
+             'userinformation': [{                  // information of car a user has purchased
+                'name': 'test',
+                'phonenumber': '09123456789',          // logging username
              }]
-        }   
+        }
   }
 });
 </script>
