@@ -13,7 +13,7 @@ window.dataLayer.push({
             'product': [{                  // information of car a user has purchased
                 'brand': 'ایران خودرو',      // name of a product brand
                 'model': 'پژو 206',         // name of a product model
-                'product_year': '1401',      // car manufactured year
+                'manufacture_year': '1401',      // car manufactured year
                 'type': 'تیپ 2',            // product type
                 'kilometer': '12000',            // car mileage
                 'city': 'تهران',
@@ -39,7 +39,7 @@ window.dataLayer.push({
                 'paid': '1',                // if service fee has been paid, it should be 1, otherwise 0
              },
              'userinformation': [{                  // information of car a user has purchased
-                'name': 'test',
+                'name': 'test',          // usernam
                 'phonenumber': '09123456789',          // logging username
              }]
         }
