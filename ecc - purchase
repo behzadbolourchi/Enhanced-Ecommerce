@@ -6,7 +6,7 @@ window.dataLayer.push({
         'purchase': {                       // name of an action. In this case, always stays as purchase
             'actionField': {
                 'id': '155',                // order id. required.
-                'lux': '0'                    // if the car is luxury, it should be 1, otherwise 0
+                'lux': '0'                    // if the car is in luxury segment, it should be 1, otherwise 0
                 'paid': '1',                // if service fee has been paid, it should be 1, otherwise 0
                 'revenue': '170000',         // order revenue, car inspection that user pay
                 'coupon': 'SUMMER20'        // coupon code used in this transaction
