@@ -30,7 +30,7 @@ window.dataLayer.push({
                 'body_rear_fender_lh': '1',
                 'body_rear_fender_rh': '1',
                 'body_roof': '1',
-                'chassis': '4',             // 0 for fine, 1 for recognition, 2 for changed, and 4 for minor damage
+                'chassis': '4',              // 0 for fine, 1 for recognition, 2 for changed, and 4 for minor damage
                 'color': 'سفید',
                 'recommended_low_price': '499000000',
                 'recommended_high_price': '514000000',
